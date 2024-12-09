@@ -1,0 +1,21 @@
+digraph G {
+    graph [rankdir=TB, clusterrank="local"];
+    subgraph cluster_G {
+
+        graph [style="filled,rounded",fillcolor="#80808018", label=""];
+        initialise_scrapper [label="initialise_scrapper", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="0"];
+        main [label="main", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="1"];
+        subgraph cluster_main {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="main"];
+            main__get_url_to_scrap [label="get_url_to_scrap", style="filled", fillcolor="#ccfeccb2", fontcolor="#000000", group="1"];
+            main__insert_new_urls [label="insert_new_urls", style="filled", fillcolor="#ccfeccb2", fontcolor="#000000", group="1"];
+            main__insert_one_document [label="insert_one_document", style="filled", fillcolor="#ccfeccb2", fontcolor="#000000", group="1"];
+            main__scrape_urls [label="scrape_urls", style="filled", fillcolor="#ccfeccb2", fontcolor="#000000", group="1"];
+        }
+    }
+        main -> main__scrape_urls [style="solid", color="#000000"];
+        main__scrape_urls -> main__get_url_to_scrap [style="solid", color="#000000"];
+        main__scrape_urls -> main__insert_one_document [style="solid", color="#000000"];
+        main__scrape_urls -> main__insert_new_urls [style="solid", color="#000000"];
+    }
