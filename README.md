@@ -12,9 +12,9 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
 ## 🚀 Project 1: Developing a Machine Learning Web App using Streamlit  
 [🔍 View Project Details](Developing-a-Machine-Learning-Web-App-with-Streamlit/README.md)
-<hr style="margin-top: 200px;">
+<hr style="margin-top: 2000px;">
 
-
+---
 
 ## 🕸️ Project 2: Webscraping Books Data with MongoDB  
 [🔍 View Project Details](Webscraping-books-data-using-MongoDB/README.md)
