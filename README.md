@@ -11,6 +11,8 @@ PS: Please be aware that I am still working on it and will make significant chan
 ## Project 1: Monitoring real-time road traffic of the city of Rennes, France
 [View Subfolder Documentation](Monitoring-real-time-Road-Traffic/README.md)
 ## Project 2: Improving customer loyalty program of a cheese manufacturer
+[View Project Details](Improving-Customer-Loyalty-Program/README.md)
+
 ## Project 3: Developing a machine learning web app with Streamlit
 ## Project 4: Webscraping books data with MongoDB
 ## Project 5: Database Movie Website
