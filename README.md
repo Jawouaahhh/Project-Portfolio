@@ -3,10 +3,11 @@
 Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
 *Please note: I am still working on this portfolio and will be making significant updates in the coming days.*
-
----
-
-<h1 align="center">📁 Projects Overview</h1>
+<br>
+<br>
+<div style="text-align: center; font-size: 34px; font-weight: bold;">
+📁 Projects Overview
+</div>
 
 ---
 
