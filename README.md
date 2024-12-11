@@ -37,7 +37,7 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
 ---
 
-## 🧀 Project 4: Improving Customer Loyalty Program for a Cheese Manufacturer with Hadoop and HBase  
+## 🧀 Project 4: Big Data - Improving Customer Loyalty Program for a Cheese Manufacturer (Hadoop, HBase, PowerBI)  
 *In Progress*
 
 &nbsp;  
@@ -46,7 +46,7 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
 ---
 
-## 🎬 Project 5: Database Movie Website  
+## 🎬 Project 5: Database Movie Website (Spring Boot)
 *In Progress*
 
 &nbsp;  
