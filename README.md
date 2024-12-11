@@ -1,8 +1,4 @@
----
-title: "My Project Portfolio"
----
-
-# 👋 Hi, I am Jaouad
+👋 Hi, I am Jaouad
 
 Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
@@ -16,32 +12,57 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
 ## 🚀 Project 1: Developing a Machine Learning Web App using Streamlit
 [🔍 View Project Details](Developing-a-Machine-Learning-Web-App-with-Streamlit/README.md)
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ---
 
 ## 🕸️ Project 2: Webscraping Books Data with MongoDB
 [🔍 View Project Details](Webscraping-books-data-using-MongoDB/README.md)
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ---
 
-## 🚧 Project 3: Monitoring Real-Time Road Traffic of Rennes, France
+## 🚧 Project 3: Monitoring Real-Time Road Traffic using Kafka and ELK
 *In Progress*
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ---
 
-## 🧀 Project 4: Improving Customer Loyalty Program for a Cheese Manufacturer
+## 🧀 Project 4: Improving Customer Loyalty Program for a Cheese Manufacturer with Hadoop and Hbase
 *In Progress*
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ---
 
 ## 🎬 Project 5: Database Movie Website
 *In Progress*
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ---
 
 ### 🌟 Stay Tuned!
 I'm continuously updating my projects and adding new ones. Feel free to reach out if you have any questions or opportunities!
-
+<br>
+<br>
+<br>
+<br>
+<br>
 ---
 
 ### 📫 Connect with Me
