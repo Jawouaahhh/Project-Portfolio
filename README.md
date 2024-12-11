@@ -11,7 +11,10 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
 
 ## 🚀 Project 1: Developing a Machine Learning Web App using Streamlit
-<span style="display: block; margin-bottom: 200px;">[🔍 View Project Details](Developing-a-Machine-Learning-Web-App-with-Streamlit/README.md)</span>  
+
+&nbsp;  
+&nbsp;  
+&nbsp;
 
 ---
 
@@ -27,15 +30,27 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 ## 🚧 Project 3: Monitoring Real-Time Road Traffic using Kafka and ELK  
 *In Progress*
 
+&nbsp;  
+&nbsp;  
+&nbsp;
+
 ---
 
 ## 🧀 Project 4: Improving Customer Loyalty Program for a Cheese Manufacturer with Hadoop and HBase  
 *In Progress*
 
+&nbsp;  
+&nbsp;  
+&nbsp;
+
 ---
 
 ## 🎬 Project 5: Database Movie Website  
 *In Progress*
+
+&nbsp;  
+&nbsp;  
+&nbsp;
 
 ---
 
