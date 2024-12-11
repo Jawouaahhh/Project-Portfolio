@@ -1,0 +1,168 @@
+digraph G {
+    overlap=false;
+    ranksep=3.5;   // Default is 0.5, increase this value for more space
+    nodesep=0.8;   // Default is 0.25, increase this value for more space
+    graph [rankdir=TB, clusterrank="local"];
+    subgraph cluster_G {
+
+        graph [style="filled,rounded",fillcolor="#80808018", label=""];
+        app [label="app", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="0"];
+        classification [label="classification", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="1"];
+        data_management [label="data_management", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="2"];
+        machine_learning [label="machine_learning", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="3"];
+        preprocessing [label="preprocessing", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="4"];
+        regression [label="regression", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="5"];
+        validation [label="validation", style="filled", fillcolor="#ffffffb2", fontcolor="#000000", group="6"];
+        subgraph cluster_classification {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="classification"];
+            classification__k_neighbors_classifier [label="k_neighbors_classifier", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+            classification__logistic_regression [label="logistic_regression", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+            classification__naive_bayes_classifier [label="naive_bayes_classifier", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+            classification__plot_matrice_cofusion [label="plot_matrice_cofusion", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+            classification__sgd_classifier [label="sgd_classifier", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+            classification__support_vector_classifier [label="support_vector_classifier", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+            classification__tree_classifier [label="tree_classifier", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+            classification__xgboost_classifier [label="xgboost_classifier", style="filled", fillcolor="#fef2ccb2", fontcolor="#000000", group="1"];
+        }
+        subgraph cluster_data_management {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="data_management"];
+            data_management__correlation_matrix [label="correlation_matrix", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__data_dimension [label="data_dimension", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__data_overview [label="data_overview", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__data_type [label="data_type", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__descriptive_statistics [label="descriptive_statistics", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__displaying_outliers [label="displaying_outliers", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__load_data [label="load_data", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__missing_data [label="missing_data", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__missing_data_stats [label="missing_data_stats", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__pair_plot_sns [label="pair_plot_sns", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__preprocess [label="preprocess", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+            data_management__target_analyse [label="target_analyse", style="filled", fillcolor="#e5feccb2", fontcolor="#000000", group="2"];
+        }
+        subgraph cluster_machine_learning {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="machine_learning"];
+            machine_learning__data_standardisation [label="data_standardisation", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__feature_encoding [label="feature_encoding", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__is_standardized [label="is_standardized", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__run [label="run", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__run_machine_learning [label="run_machine_learning", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__select_algo_model [label="select_algo_model", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__select_algo_type [label="select_algo_type", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__select_features [label="select_features", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__select_target [label="select_target", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+            machine_learning__target_encoding [label="target_encoding", style="filled", fillcolor="#ccfed8b2", fontcolor="#000000", group="3"];
+        }
+        subgraph cluster_preprocessing {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="preprocessing"];
+            preprocessing__change_variable_types [label="change_variable_types", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__columns_with_missing_data [label="columns_with_missing_data", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__delete_columns [label="delete_columns", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__get_list_strategy [label="get_list_strategy", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__matrice_correlation [label="matrice_correlation", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__missed_data_treatment [label="missed_data_treatment", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__pair_plot [label="pair_plot", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__plot_data [label="plot_data", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+            preprocessing__run [label="run", style="filled", fillcolor="#ccfefeb2", fontcolor="#000000", group="4"];
+        }
+        subgraph cluster_regression {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="regression"];
+            regression__regression_elasticnet [label="regression_elasticnet", style="filled", fillcolor="#ccd8feb2", fontcolor="#000000", group="5"];
+            regression__regression_gradient_boosting [label="regression_gradient_boosting", style="filled", fillcolor="#ccd8feb2", fontcolor="#000000", group="5"];
+            regression__regression_lineaire [label="regression_lineaire", style="filled", fillcolor="#ccd8feb2", fontcolor="#000000", group="5"];
+            regression__regression_random_forest [label="regression_random_forest", style="filled", fillcolor="#ccd8feb2", fontcolor="#000000", group="5"];
+            regression__regression_ridge [label="regression_ridge", style="filled", fillcolor="#ccd8feb2", fontcolor="#000000", group="5"];
+            regression__regressionlasso [label="regressionlasso", style="filled", fillcolor="#ccd8feb2", fontcolor="#000000", group="5"];
+        }
+        subgraph cluster_validation {
+
+            graph [style="filled,rounded",fillcolor="#80808018", label="validation"];
+            validation__compare_classification_models [label="compare_classification_models", style="filled", fillcolor="#e5ccfeb2", fontcolor="#000000", group="6"];
+            validation__compare_regression_models [label="compare_regression_models", style="filled", fillcolor="#e5ccfeb2", fontcolor="#000000", group="6"];
+            validation__validation_k_fold_classification [label="validation_k_fold_classification", style="filled", fillcolor="#e5ccfeb2", fontcolor="#000000", group="6"];
+            validation__validation_k_fold_regression [label="validation_k_fold_regression", style="filled", fillcolor="#e5ccfeb2", fontcolor="#000000", group="6"];
+        }
+    }
+        classification__tree_classifier -> classification__plot_matrice_cofusion [style="solid", color="#000000"];
+        classification__logistic_regression -> classification__plot_matrice_cofusion [style="solid", color="#000000"];
+        classification__k_neighbors_classifier -> classification__plot_matrice_cofusion [style="solid", color="#000000"];
+        classification__support_vector_classifier -> classification__plot_matrice_cofusion [style="solid", color="#000000"];
+        classification__naive_bayes_classifier -> classification__plot_matrice_cofusion [style="solid", color="#000000"];
+        classification__xgboost_classifier -> classification__plot_matrice_cofusion [style="solid", color="#000000"];
+        classification__sgd_classifier -> classification__plot_matrice_cofusion [style="solid", color="#000000"];
+        preprocessing -> data_management__data_type [style="solid", color="#000000"];
+        preprocessing -> data_management__missing_data [style="solid", color="#000000"];
+        preprocessing__change_variable_types -> data_management__data_type [style="solid", color="#000000"];
+        preprocessing__missed_data_treatment -> data_management__missing_data [style="solid", color="#000000"];
+        preprocessing__missed_data_treatment -> preprocessing__get_list_strategy [style="solid", color="#000000"];
+        preprocessing__missed_data_treatment -> preprocessing__columns_with_missing_data [style="solid", color="#000000"];
+        preprocessing__plot_data -> preprocessing__pair_plot [style="solid", color="#000000"];
+        preprocessing__plot_data -> preprocessing__matrice_correlation [style="solid", color="#000000"];
+        preprocessing__run -> preprocessing__missed_data_treatment [style="solid", color="#000000"];
+        preprocessing__run -> preprocessing__change_variable_types [style="solid", color="#000000"];
+        preprocessing__run -> preprocessing__delete_columns [style="solid", color="#000000"];
+        preprocessing__run -> preprocessing__plot_data [style="solid", color="#000000"];
+        machine_learning -> regression__regression_gradient_boosting [style="solid", color="#000000"];
+        machine_learning -> validation__validation_k_fold_regression [style="solid", color="#000000"];
+        machine_learning -> validation__compare_regression_models [style="solid", color="#000000"];
+        machine_learning -> regression__regression_lineaire [style="solid", color="#000000"];
+        machine_learning -> validation__compare_classification_models [style="solid", color="#000000"];
+        machine_learning -> classification__sgd_classifier [style="solid", color="#000000"];
+        machine_learning -> classification__support_vector_classifier [style="solid", color="#000000"];
+        machine_learning -> classification__naive_bayes_classifier [style="solid", color="#000000"];
+        machine_learning -> validation__validation_k_fold_classification [style="solid", color="#000000"];
+        machine_learning -> regression__regression_random_forest [style="solid", color="#000000"];
+        machine_learning -> regression__regressionlasso [style="solid", color="#000000"];
+        machine_learning -> classification__k_neighbors_classifier [style="solid", color="#000000"];
+        machine_learning -> classification__logistic_regression [style="solid", color="#000000"];
+        machine_learning -> regression__regression_ridge [style="solid", color="#000000"];
+        machine_learning -> classification__tree_classifier [style="solid", color="#000000"];
+        machine_learning -> classification__xgboost_classifier [style="solid", color="#000000"];
+        machine_learning -> regression__regression_elasticnet [style="solid", color="#000000"];
+        machine_learning__data_standardisation -> machine_learning__is_standardized [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> regression__regression_gradient_boosting [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> validation__validation_k_fold_regression [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> regression__regression_lineaire [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> classification__sgd_classifier [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> classification__naive_bayes_classifier [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> classification__support_vector_classifier [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> validation__validation_k_fold_classification [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> regression__regression_random_forest [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> regression__regressionlasso [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> classification__k_neighbors_classifier [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> classification__logistic_regression [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> regression__regression_ridge [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> classification__tree_classifier [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> classification__xgboost_classifier [style="solid", color="#000000"];
+        machine_learning__run_machine_learning -> regression__regression_elasticnet [style="solid", color="#000000"];
+        machine_learning__run -> validation__compare_regression_models [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__select_algo_type [style="solid", color="#000000"];
+        machine_learning__run -> validation__compare_classification_models [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__select_algo_model [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__feature_encoding [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__data_standardisation [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__run_machine_learning [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__target_encoding [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__select_features [style="solid", color="#000000"];
+        machine_learning__run -> machine_learning__select_target [style="solid", color="#000000"];
+        app -> machine_learning [style="solid", color="#000000"];
+        app -> preprocessing [style="solid", color="#000000"];
+        app -> preprocessing__run [style="solid", color="#000000"];
+        app -> machine_learning__run [style="solid", color="#000000"];
+        app -> data_management [style="solid", color="#000000"];
+        app -> data_management__preprocess [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__displaying_outliers [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__descriptive_statistics [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__data_type [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__data_overview [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__data_dimension [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__missing_data [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__missing_data_stats [style="solid", color="#000000"];
+        data_management__preprocess -> data_management__load_data [style="solid", color="#000000"];
+        validation__compare_regression_models -> validation__validation_k_fold_regression [style="solid", color="#000000"];
+        validation__compare_classification_models -> validation__validation_k_fold_classification [style="solid", color="#000000"];
+    }

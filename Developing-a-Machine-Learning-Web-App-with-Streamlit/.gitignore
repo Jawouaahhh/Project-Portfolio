@@ -1,0 +1,7 @@
+node_modules/
+/venv/
+*.log
+to_be_looked_at
+.DS_Store
+.idea/
+__pycache__/
