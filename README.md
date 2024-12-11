@@ -1,22 +1,52 @@
-Hi, I am Jaouad.
+---
+title: "My Project Portfolio"
+---
 
-Welcome to my project portfolio page.
+# 👋 Hi, I am Jaouad
 
-I hope you will enjoy it.
+Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
-PS: Please be aware that I am still working on it and will make significant changes to it in the coming days/weeks.
+*Please note: I am still working on this portfolio and will be making significant updates in the coming days.*
 
-# Projects Overview
+---
 
-## Project 1: Monitoring real-time road traffic of the city of Rennes, France
-[View Subfolder Documentation](Monitoring-real-time-Road-Traffic/README.md)
-## Project 2: Improving customer loyalty program of a cheese manufacturer
-[View Project Details](Improving-Customer-Loyalty-Program/README.md)
+<h1 align="center">📁 Projects Overview</h1>
 
-## Project 3: Developing a machine learning web app with Streamlit
-## Project 4: Webscraping books data with MongoDB
-## Project 5: Database Movie Website
+---
 
+## 🚀 Project 1: Developing a Machine Learning Web App using Streamlit
+[🔍 View Project Details](Developing-a-Machine-Learning-Web-App-with-Streamlit/README.md)
 
+---
 
+## 🕸️ Project 2: Webscraping Books Data with MongoDB
+[🔍 View Project Details](Webscraping-books-data-using-MongoDB/README.md)
 
+---
+
+## 🚧 Project 3: Monitoring Real-Time Road Traffic of Rennes, France
+*In Progress*
+
+---
+
+## 🧀 Project 4: Improving Customer Loyalty Program for a Cheese Manufacturer
+*In Progress*
+
+---
+
+## 🎬 Project 5: Database Movie Website
+*In Progress*
+
+---
+
+### 🌟 Stay Tuned!
+I'm continuously updating my projects and adding new ones. Feel free to reach out if you have any questions or opportunities!
+
+---
+
+### 📫 Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/jaouad-s-42928226/)
+- [GitHub](https://github.com/Jawouaahhh)
+- [Email](mailto:back2thedata@gmail.com)
+
+---
