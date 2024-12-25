@@ -31,7 +31,7 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 ## 🚧 Project 3: Monitoring Real-Time Road Traffic using Kafka and ELK  
 *In Progress*
 
-![Demo Dashboard](demo/demo-dashboard-kibana_short.gif)
+![Demo Dashboard](Demo/demo-dashboard-kibana_short.gif)
 
 &nbsp;  
 &nbsp;  
