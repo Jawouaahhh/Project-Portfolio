@@ -29,8 +29,23 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 ---
 
 ## 🚧 Project 3: Monitoring Real-Time Road Traffic using Kafka and ELK  
-*In Progress*
 
+### Urban Challenges in the City of Rennes
+
+- **Security Issues**
+  - Allocation of law enforcement to the most dangerous areas
+  - Deployment of automated traffic cameras
+- **Traffic Congestion Management**
+  - Adjust traffic signal timings
+  - Recommend alternative routes
+  - Schedule roadwork during off-peak hours
+  - Alert for pollution spikes related to traffic
+
+###Data Pipeline Architecture
+
+![Alt Text](Monitoring-real-time-Road-Traffic/image/Architecture.png)
+
+### Demo
 ![Demo Dashboard](Demo/demo-dashboard-kibana_short.gif)
 
 &nbsp;  
