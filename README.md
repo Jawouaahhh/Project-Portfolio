@@ -41,7 +41,7 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
   - Schedule roadwork during off-peak hours
   - Alert for pollution spikes related to traffic
 
-###Data Pipeline Architecture
+### Data Pipeline Architecture
 
 ![Alt Text](Monitoring-real-time-Road-Traffic/image/Architecture.png)
 
