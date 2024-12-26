@@ -1,0 +1,195 @@
+# To ensure data types mappings success, run beforehand the command below in Kibana Dev Tools
+
+PUT /rennes_traffic_topic
+{
+  "mappings": {
+    "properties": {
+      "data:averagevehiclespeed": {
+        "type": "integer"
+      },
+      "data:congestion_level": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:datetime": {
+        "type": "date"
+      },
+      "data:datetime_random": {
+        "type": "date"
+      },
+      "data:day_of_week": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:day_of_week_random": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:denomination": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:geo_point_2d": {
+        "type": "geo_point"
+      },
+      "data:geo_shape": {
+        "type": "geo_shape"
+      },
+      "data:gml_id": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:hierarchie": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:hierarchie_dv": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:hour_range": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:hour_range_random": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:id_rva_troncon_fcd_v1_1": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:insee": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:predefinedlocationreference": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:speed_compliance": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:speed_excess": {
+        "type": "integer"
+      },
+      "data:time_of_day": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:traffic_density": {
+        "type": "integer"
+      },
+      "data:trafficstatus": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:traveltime": {
+        "type": "integer"
+      },
+      "data:traveltimereliability": {
+        "type": "integer"
+      },
+      "data:unique_denomination": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:vehicle_probe_count": {
+        "type": "integer"
+      },
+      "data:vehicleprobemeasurement": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
+      },
+      "data:vitesse_maxi": {
+        "type": "integer"
+      }
+    }
+  }
+}
