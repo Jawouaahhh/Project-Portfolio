@@ -1,4 +1,4 @@
-👋 Hi, I am Jaouad
+👋 Hi, I am Jaouad.
 
 Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
@@ -64,7 +64,10 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 ---
 
 ## 🎬 Project 5: Database Movie Website (Spring Boot)
-*In Progress*
+
+### Demo
+
+![Demo Dashboard](Demo/PresentationProjectFront_new.gif)
 
 &nbsp;  
 &nbsp;  
