@@ -48,6 +48,8 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 ### Demo
 ![Demo Dashboard](Demo/demo-dashboard-kibana_short.gif)
 
+[🔍 View Project Details](Monitoring-real-time-Road-Traffic)
+
 &nbsp;  
 &nbsp;  
 &nbsp;
