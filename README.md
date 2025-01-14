@@ -11,7 +11,10 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 
 
 ## 🚀 Project 1: Developing a Machine Learning Web App using Streamlit
-[🔍 View Project Details](Developing-a-Machine-Learning-Web-App-with-Streamlit/README.md)
+*Demo in Progress*
+
+
+[🔍 View Project Details](Developing-a-Machine-Learning-Web-App-with-Streamlit)
 
 &nbsp;  
 &nbsp;  
@@ -20,7 +23,9 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 ---
 
 ## 🕸️ Project 2: Webscraping Books Data with MongoDB  
-[🔍 View Project Details](Webscraping-books-data-using-MongoDB/README.md)
+*Demo in Progress*
+
+[🔍 View Project Details](Webscraping-books-data-using-MongoDB)
 
 &nbsp;  
 &nbsp;  
@@ -57,7 +62,9 @@ Welcome to my project portfolio page. I hope you enjoy exploring my work!
 ---
 
 ## 🧀 Project 4: Big Data - Improving Customer Loyalty Program for a Cheese Manufacturer (Hadoop, HBase, PowerBI)  
-*In Progress*
+*Demo in Progress*
+
+[🔍 View Project Details](Improving-Customer-Loyalty-Program)
 
 &nbsp;  
 &nbsp;  
